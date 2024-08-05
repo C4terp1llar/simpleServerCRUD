@@ -1,0 +1,13 @@
+бд на mongo atlas
+
+Запуск сервера - npm run dev
+
+СПИСОК ЕНДПОИНТОВ:
+
+http://localhost:5000/users - GET - получение всех юзеров
+http://localhost:5000/users/айди - GET - юзер по айди
+http://localhost:5000/users/айди - DELETE - удаление юзера по айди
+http://localhost:5000/users/айди - PATCH - обновление юзера по айди {name, email (uniq), password}
+http://localhost:5000/users/ - POST - создание юзера {name, email, password}
+
+
